@@ -2,11 +2,11 @@
 
 :root {
   --primaryColor: #fff;
-  --navColor1: #21292c;
-  --navColor2: #201446;
-  --navColor3: #6956A4;
-  --navColor4: #a390df;
-  --navColor5: #834f9f;
+  --navColor1: #002221;
+  --navColor2: #568A88;
+  --navColor3: #647598;
+  --navColor4: #E3C98D;
+  --navColor5: #AA7239;
 }
 
 html {
@@ -30,6 +30,17 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
+  transform: translateX(-100vw);
+}
+
+.overlay-slide-right {
+  transition: all 0.4s ease-in-out;
+  transform: translateX(0);
+}
+
+.overlay-slide-left {
+  transition: all 0.8s ease-in-out;
+  transform: translateX(-100vw);
 }
 
 /* Nav Menu Items */
@@ -153,7 +164,7 @@ section {
 }
 
 section#home {
-  background-image: url("https://images.unsplash.com/photo-1543722530-d2c3201371e7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80");
+  background-image: url("https://images.unsplash.com/photo-1589278466943-8bd637ac5ae8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
   background-position: center center;
 }
